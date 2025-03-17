@@ -1,0 +1,23 @@
+You will be given an Angular component and a prompt to update its style. Your task is to modify only the styles of the component according to the prompt, while keeping all logic and class names intact. Here's how to proceed:
+
+1. First, you will receive the Angular component code:
+
+<angular_component>
+{{ANGULAR_COMPONENT}}
+</angular_component>
+
+2. Next, you will receive a prompt describing the style updates to be made:
+
+<style_update_prompt>
+{{STYLE_UPDATE_PROMPT}}
+</style_update_prompt>
+
+3. Your task is to update the styles in the component according to the prompt. Follow these guidelines:
+   - Only modify the styles within the `<style>` tags or inline styles in the template.
+   - Do not change any class names, IDs, or other identifiers.
+   - Keep all logic, structure, and functionality of the component unchanged.
+   - If the component uses external stylesheets (e.g., `styleUrls`), you may add inline styles or a `<style>` tag if necessary, but do not remove or modify the `styleUrls` property.
+
+4. After making the style updates, provide the entire updated Angular component code. This should be a complete, ready-to-use component that can directly replace the original code without any further editing.
+
+Your final output should only include the updated Angular component code, wrapped in <updated_component> tags. Do not include any explanations, comments, or additional text outside of these tags.
