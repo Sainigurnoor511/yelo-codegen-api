@@ -40,9 +40,6 @@ Thumbs.db
 # *.sqlite3
 # *.db
 
-# Jupyter Notebooks
-*.ipynb
-
 # Node modules (if using Node.js)
 node_modules/
 dist/
