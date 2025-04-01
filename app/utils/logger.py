@@ -41,7 +41,6 @@
 
 import logging
 import sys
-import os
 from pythonjsonlogger import jsonlogger
 from fastapi import Request
 import colorlog
